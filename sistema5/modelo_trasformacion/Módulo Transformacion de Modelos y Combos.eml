@@ -1,0 +1,265 @@
+Return-Path: <gerencia@prolyam.com>
+Received: from Administracion ([190.223.128.150])
+	(authenticated bits=0)
+	by dish4070.net.ibizdns.com (8.13.4/8.13.4) with ESMTP id p6CEG3AY009213
+	(version=TLSv1/SSLv3 cipher=DHE-RSA-AES256-SHA bits=256 verify=NO);
+	Tue, 12 Jul 2011 07:16:06 -0700
+Message-ID: <E691E02BA4C243A48473CDF50E813FE6@Administracion>
+Reply-To: "Gerencia Prolyam" <gerencia@prolyam.com>
+From: "Gerencia Prolyam" <gerencia@prolyam.com>
+To: "desarrolloweb2" <sistemas3@prolyam.com>, <sistemas@prolyam.com>
+Subject: =?iso-8859-1?Q?M=F3dulo_Transformacion_de_Modelos_y_Combos?=
+Date: Tue, 12 Jul 2011 09:16:09 -0500
+Organization: Prolyam Software
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0074_01CC4074.56885120"
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5512
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5512
+X-Antivirus: avast! (VPS 110712-0, 12/07/2011), Outbound message
+X-Antivirus-Status: Clean
+X-MailThrottle-Validated: 1
+X-Spam-Checker-Version: SpamAssassin 3.0.4 (2005-06-05) on 
+	dish4070.net.ibizdns.com
+X-Spam-Level: ***
+X-Spam-Status: No, score=3.2 required=5.0 tests=AWL,FORGED_MUA_OUTLOOK,
+	HTML_40_50,HTML_MESSAGE autolearn=no version=3.0.4
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0074_01CC4074.56885120
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+                <<M=F3dulo Transformacion y modelos>>
+
+1. Generador de Modelos=20
+- Se muestra el listado de modelos ya generados (Vigentes, Observados, =
+en baja), ordenados alfabeticamente y repaginados cada 100 items. Se =
+imprime este listado o exportar a exel.
+- "F3: Busca Nombre modelo": Selecciona 1 item del "soporte de =
+Productos", para luego asignarle un "Alias", que servira como etiqueta =
+del Modelo en las impresiones.
+- "Unidad resultado": Define la Cantidad "resultado" y su presentacion.
+- "Ventana Componentes": Elije los "Insumos o componentes", que forman =
+parte del "Modelo a transformar".
+- Al definir los componentes muestra sus precios de costo definido en =
+configuracion (costo y costo referencia).
+- Digita la cantidad de cada componente y al mismo tiempo va =
+recalculando sus costos con los precios de Venta (los muestra de =
+Organizar precios de venta). En este momento muestra la utilidad en =
+"Importe y %", teniendo la facilidad de modificar estos valores.
+- "F4": dar de baja a este Modelo (confirma el usuario, fecha y hora)
+- "F5": un "boton de Actualizar Costos", para que vuelva a copiar y =
+recalcular los valores que de promto fueron cambiados en "Organizar =
+precios de venta".
+- "F6": Notas adicionales o comentarios para este modelo.
+- "F7": Imprimir la Hoja del Modelo y todos sus componentes, inclusive =
+con su imagen.=20
+- "F8": Adjuntar un archivo en formato word, exel, html, JPG, etc.
+- Finalmente grabar con "F2".
+
+2. generador de Ordenes de Transformacion "OR"
+- Listado de "OR", ordenados por fecha y numero.
+Tener en cuenta que todos estos documentos descargan el Kardex (muestra: =
+Fecha. Numero OR, Nombre producto Ingresado, Cantidad y Notas).
+- "F3": Muestra el Generador de OR, definiendo "Almacen Origen para los =
+Insumos" y "Almacen destino para el Producto final".
+** "ventana de Insumos y Producto Terminado" **
+- Selecciona y guarda los item insumos que componen esta transformacion. =
+Indicar Cantidad/Unidad ademas de sus costos.=20
+- Los Costos pueden ser configurables (costo en soles o costo =
+referencia).
+- Debe "Recalcular el Costo final", en base a la cantidad resultante del =
+Producto transformado.
+- "F5": Recalcular costos, para los casos en que los Insumos hayan sido =
+modificados mientras se este realizando esta hoja.
+- "F6": A=F1adir Notas adicionales.
+- "F7": imprimir Hoja de costos de Transformacion (grabandolo a la vez).
+- "F8": Cambio de Moneda a Dolares (Soles por defecto)., siempre y =
+cuando este en edicion antes de grabar.
+- "F9": Opcion nueva de modificar Hoja de transformacion.
+
+3. Combos-Ofertas
+ - Listar "Vigencia de Combos": Fechas (desde hasta), Alias del Combo, =
+Producto Oferta y cantidad base.
+- "F3": Definir que producto y cantidad generara el "Combo Oferta". =
+Indicar el "Producto y cantidad ofertada".
+- En esta ventana indicar el precio valor, sea 0.0 o mayor de cada item =
+y grabar con "F2".
+- "F5": Anular oferta
+- "F6": Indicar detalles de la oferta.
+- "F7": Imprimir listado de Ofertas vigentes
+- "F8": Imprimir detalle de Oferta
+... "considerar la configuracion de este procedimiento en el Documento =
+que lo usara".
+
+4. reporte de "Insumos utilizados" en Modelos y Transformaciones.
+- Listado de Modelos o Productos transformados (Solo los vigentes).
+- Opzcion para indicar "Detallado o Consolidado".
+- Despues de seleccionar 1 o varios Productos transformados, se debe de =
+presionar "F7" para elegir el periodo a reportar (Si no hay seleccion, =
+la tecla F7 estara desactivada).
+- El listado estara repaginado, con opcion de exportar a exel.
+- "F8" o doble "click", Consulta origen para mostrar todos los =
+documentos que han intervenido en la transformacion de el producto =
+elegido.
+
+------=_NextPart_000_0074_01CC4074.56885120
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type>
+<META name=3DGENERATOR content=3D"MSHTML 8.00.6001.18702">
+<STYLE></STYLE>
+</HEAD>
+<BODY bgColor=3D#ffffff>
+<DIV><FONT size=3D2 face=3DArial>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;=20
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &lt;&lt;M=F3dulo Transformacion y=20
+modelos&gt;&gt;</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D2 face=3DArial>1. Generador de Modelos </FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Se muestra el listado de modelos ya =
+generados=20
+(Vigentes, Observados, en baja), ordenados alfabeticamente y repaginados =
+cada=20
+100 items. Se imprime este listado o exportar a exel.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F3: Busca Nombre modelo": Selecciona =
+1 item del=20
+"soporte de Productos", para luego asignarle un "Alias", que servira =
+como=20
+etiqueta del Modelo en las impresiones.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "Unidad resultado": Define la =
+Cantidad=20
+"resultado" y&nbsp;su presentacion.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "Ventana Componentes": Elije los =
+"Insumos o=20
+componentes", que forman parte del "Modelo a transformar".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Al definir los componentes muestra =
+sus precios de=20
+costo definido en configuracion (costo y costo referencia).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Digita la cantidad de cada componente =
+y al mismo=20
+tiempo va recalculando sus costos con los precios de Venta (los muestra =
+de=20
+Organizar precios de venta). En este momento muestra la utilidad en =
+"Importe y=20
+%", teniendo la facilidad de modificar estos valores.</FONT></DIV><FONT =
+size=3D2=20
+face=3DArial>
+<DIV><FONT size=3D2 face=3DArial>- "F4": dar de baja a este Modelo =
+(confirma el=20
+usuario, fecha y hora)</FONT></DIV>
+<DIV>- "F5": un "boton de Actualizar Costos", para que vuelva a copiar y =
+
+recalcular los valores que de promto fueron cambiados en "Organizar =
+precios de=20
+venta".</DIV>
+<DIV>- "F6": Notas adicionales o comentarios para este modelo.</DIV>
+<DIV>- "F7": Imprimir la Hoja del Modelo y todos sus componentes, =
+inclusive con=20
+su imagen.&nbsp;</DIV>
+<DIV>- "F8": Adjuntar un archivo en formato word, exel, html, JPG,=20
+etc.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Finalmente grabar con =
+"F2".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D2 face=3DArial>2. generador de Ordenes de =
+Transformacion=20
+"OR"</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Listado de "OR", ordenados por fecha =
+y=20
+numero.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>Tener en cuenta que todos estos =
+documentos=20
+descargan el Kardex (muestra: Fecha. Numero OR, Nombre producto =
+Ingresado,=20
+Cantidad y Notas).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F3": Muestra el Generador de OR, =
+definiendo=20
+"Almacen Origen para los Insumos" y "Almacen destino para el Producto=20
+final".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>**&nbsp;</FONT><FONT size=3D2 =
+face=3DArial>"ventana de=20
+Insumos y Producto Terminado" **</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>-&nbsp;Selecciona y guarda los item =
+insumos que=20
+componen esta transformacion. Indicar Cantidad/Unidad ademas de sus=20
+costos.&nbsp;</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Los Costos pueden ser configurables =
+(costo en=20
+soles o costo referencia).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Debe "Recalcular el Costo final", en =
+base a la=20
+cantidad resultante del Producto transformado.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F5": Recalcular costos, para los =
+casos en que=20
+los Insumos hayan sido modificados mientras se este realizando esta=20
+hoja.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F6": A=F1adir Notas =
+adicionales.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F7": imprimir Hoja de costos de =
+Transformacion=20
+(grabandolo a la vez).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F8": Cambio de Moneda a Dolares =
+(Soles por=20
+defecto)., siempre y cuando este en edicion antes de =
+grabar.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F9": Opcion nueva de modificar Hoja =
+de=20
+transformacion.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D2 face=3DArial>3. Combos-Ofertas</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>&nbsp;- Listar "Vigencia de Combos": =
+Fechas (desde=20
+hasta), Alias del Combo, Producto Oferta y&nbsp;cantidad =
+base.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F3": Definir que producto y cantidad =
+generara el=20
+"Combo Oferta". Indicar el "Producto y cantidad ofertada".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- En esta ventana indicar el precio =
+valor, sea 0.0=20
+o mayor de cada item y grabar con "F2".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F5": Anular oferta</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F6": Indicar detalles de la =
+oferta.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F7": Imprimir listado de Ofertas=20
+vigentes</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>
+<DIV><FONT size=3D2 face=3DArial>- "F8": Imprimir detalle de=20
+Oferta</FONT></DIV></FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>... "considerar la configuracion de =
+este=20
+procedimiento en el Documento que lo usara".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial></FONT>&nbsp;</DIV>
+<DIV><FONT size=3D2 face=3DArial>4. reporte de "Insumos utilizados" en =
+Modelos y=20
+Transformaciones.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Listado de Modelos o Productos =
+transformados=20
+(Solo los vigentes).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Opzcion para indicar "Detallado o=20
+Consolidado".</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- Despues de seleccionar 1 o varios =
+Productos=20
+transformados, se debe de presionar "F7" para elegir el periodo a =
+reportar (Si=20
+no hay seleccion, la tecla F7 estara desactivada).</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- El listado estara repaginado, con =
+opcion de=20
+exportar a exel.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial>- "F8" o doble "click", Consulta origen =
+para=20
+mostrar todos los documentos que han intervenido en la transformacion de =
+el=20
+producto elegido.</FONT></DIV>
+<DIV><FONT size=3D2 face=3DArial></FONT>&nbsp;</DIV></BODY></HTML>
+
+------=_NextPart_000_0074_01CC4074.56885120--

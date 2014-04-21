@@ -1,0 +1,113 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0048)http://www.whitespace-creative.com/jquery/jNice/ -->
+<HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>jQuery Nice Form</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=UTF-8">
+
+<LINK href="jquery_nice/base.css" type=text/css rel=stylesheet>
+<LINK href="jquery_nice/jNice.css" type=text/css rel=stylesheet><!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>-->
+<SCRIPT src="jquery_nice/jquery-latest.pack.js" type=text/javascript></SCRIPT>
+<SCRIPT src="jquery_nice/jquery.jNice.js" type=text/javascript></SCRIPT>
+
+<SCRIPT type=text/javascript>
+<!--
+$(function(){
+	var $a = $('<a>Add Option</a>');
+	$('body').append($a);
+	$a.click(function(){
+		var element = $('#select2')[0];
+		var myNewOption = new Option("My Option", "123", true);
+		element.options[element.options.length] = myNewOption;
+		$.jNice.SelectUpdate(element);
+	});
+});
+
+-->
+</SCRIPT>
+
+<STYLE type=text/css></STYLE>
+
+<META content="MSHTML 6.00.2900.3660" name=GENERATOR></HEAD>
+<BODY>
+<DIV id=wrapper>
+<P>Tested in FF 2+, Safari 2+, IE 6+</P>
+<FORM class=jNice>
+<TABLE cellSpacing=0 cellPadding=3 width=400 border=0>
+  <TBODY>
+  <TR>
+    <TD align=right width=100>Text:</TD>
+    <TD><INPUT id=textfield size=30 name=textfield></TD></TR>
+  <TR>
+    <TD align=right>Password:</TD>
+    <TD><INPUT id=textfield2 type=password size=10 name=textfield2></TD></TR>
+  <TR>
+    <TD align=right>Select:</TD>
+    <TD><SELECT id=select name=select> <OPTION value="" selected>Please 
+        Choose</OPTION> <OPTION value=1>Option 1</OPTION> <OPTION value=2>Option 
+        2</OPTION> <OPTION value=3>Option 3</OPTION> <OPTION value=4>Option 
+        4</OPTION> <OPTION value=5>Option 5</OPTION> <OPTION value=6>Option 
+        6</OPTION> <OPTION value=7>Option 7</OPTION> <OPTION value=8>Option 
+        8</OPTION> <OPTION value=9>Option 9 with a really long line, that should 
+        wrap</OPTION> <OPTION value=10>Option 10</OPTION> <OPTION 
+        value=11>Option 11</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD align=right>Select 2:</TD>
+    <TD><SELECT id=select2 style="WIDTH: 150px" 
+      onchange="alert('changed select 2');" name=select> <OPTION value="" 
+        selected>Please Choose</OPTION> <OPTION value=1>Option 1</OPTION> 
+        <OPTION value=2>Option 2</OPTION> <OPTION value=3>Option 3</OPTION> 
+        <OPTION value=4>Option 4</OPTION> <OPTION value=5>Option 5</OPTION> 
+        <OPTION value=6>Option 6</OPTION> <OPTION value=7>Option 7</OPTION> 
+        <OPTION value=8>Option 8</OPTION> <OPTION value=9>Option 9 with a really 
+        long line, that should wrap</OPTION> <OPTION value=10>Option 10</OPTION> 
+        <OPTION value=11>Option 11</OPTION></SELECT> </TD></TR>
+  <TR>
+    <TD align=right>Radio:</TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD><LABEL><INPUT id=radio_0 type=radio 
+            onchange="alert('radio alter');" value=1 name=radio> 
+        Yes</LABEL></TD></TR>
+        <TR>
+          <TD><LABEL><INPUT id=radio_1 type=radio value=0 name=radio> 
+            No</LABEL></TD></TR>
+        <TR>
+          <TD><LABEL><INPUT id=radio_2 type=radio value=-1 name=radio> Maybe 
+            So</LABEL></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD align=right>Radio 2:</TD>
+    <TD>
+      <TABLE cellSpacing=0 cellPadding=0 border=0>
+        <TBODY>
+        <TR>
+          <TD><LABEL><INPUT id=radio_0 type=radio value=1 name=radio2> 
+            Yes</LABEL></TD>
+          <TD><LABEL><INPUT id=radio_1 type=radio value=0 name=radio2> 
+            No</LABEL></TD>
+          <TD><LABEL><INPUT id=radio_2 type=radio value=-1 name=radio2> Maybe 
+            So</LABEL></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD align=right>Checkbox:</TD>
+    <TD><INPUT id=checkbox type=checkbox name=checkbox></TD></TR>
+  <TR>
+    <TD align=right>Checkbox 2:</TD>
+    <TD><INPUT type=checkbox name=checkbox2></TD></TR>
+  <TR>
+    <TD align=right>Buttons:</TD>
+    <TD><INPUT id=Submit type=submit value=Submit name=Submit> <INPUT type=reset value=Reset></TD></TR>
+  <TR>
+    <TD align=right>&nbsp;</TD>
+    <TD>&nbsp;</TD></TR></TBODY></TABLE></FORM></DIV>
+<SCRIPT type=text/javascript>
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+try {
+var pageTracker = _gat._getTracker("UA-1810629-9");
+pageTracker._trackPageview();
+} catch(err) {}</SCRIPT>
+</BODY></HTML>

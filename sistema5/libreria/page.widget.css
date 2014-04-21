@@ -1,0 +1,51 @@
+BODY {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px; OVERFLOW: hidden
+}
+.widgetHeader {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; BACKGROUND: url(images/widget-title-bg.gif) #89a repeat-x left top; PADDING-BOTTOM: 3px; WIDTH: 225px; PADDING-TOP: 7px
+}
+.widgetTitle {
+	BORDER-RIGHT: #345 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #bcd 1px solid; PADDING-LEFT: 60px; BACKGROUND: url(../libreria/images/widget-title-bg.gif) #89a repeat-x left top; PADDING-BOTTOM: 0px; BORDER-LEFT: #678 1px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: #123 1px solid; POSITION: relative; HEIGHT: 35px
+}
+.widgetHeader .widgetTitle .textShadow {
+	FONT-SIZE: 20px; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 4px; POSITION: absolute
+}
+.widgetHeader .widgetTitle .textHighlight {
+	FONT-SIZE: 20px; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 4px; POSITION: absolute
+}
+.widgetHeader .widgetTitle .textMain {
+	FONT-SIZE: 20px; TEXT-TRANSFORM: uppercase; LETTER-SPACING: 4px; POSITION: absolute
+}
+.widgetHeader .widgetTitle .textHighlight {
+	LEFT: 41px; COLOR: #abc; TOP: 4px; text-shadow: 0 0 1px #fff
+}
+.widgetHeader .widgetTitle .textMain {
+	LEFT: 42px; COLOR: #789; TOP: 5px; text-shadow: 0 0 1px #789
+}
+.widgetHeader .widgetTitle .textShadow {
+	LEFT: 43px; COLOR: #123; TOP: 6px; text-shadow: 0 0 1px #123
+}
+.widgetHeader .widgetTitle .logo {
+	BACKGROUND: url(images/uize-25x25.gif) no-repeat center center; LEFT: 4px; WIDTH: 25px; POSITION: absolute; TOP: 4px; HEIGHT: 25px
+}
+.widgetTitleOver {
+	BACKGROUND: #567
+}
+.widgetTitleActive {
+	BACKGROUND: url(images/button-bg.gif) #000 repeat-x left top
+}
+.widgetHeader .widgetTitleActive .textMain {
+	COLOR: #aaa
+}
+.widgetHeader .widgetTitleActive .textHighlight {
+	DISPLAY: none
+}
+.widgetHeader .widgetTitleActive .textShadow {
+	DISPLAY: none
+}
+.subMenuShell {
+	WIDTH: 222px
+}
+.subMenuShell .subMenuItem:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #456
+}

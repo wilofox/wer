@@ -1,0 +1,64 @@
+listado de modelos ya generados 
+Ventana Componentes
+Modelo a transformar".
+utilidad en "Importe y %", 
+
+
+generador de Ordenes de Transformacion "OR"
+
+Almacen Origen para los Insumos" y "Almacen destino para el Producto final".
+
+** "ventana de Insumos y Producto Terminado" **
+
+--------------------------------------------------------
+modelos (Recetarios)
+-----------------------------------
+modelo (Disco duro)
+alias	(Disco duo dominante)
+factor de entrega (unidad y cantidad) 
+costo de formula
+tipo de precio (Moneda)
+Campo para formato (adjuntar)
+Detalle tecnico
+Fecha de alta
+
+llamara a los 5 precios del producto (3 decimales) 2 precios de costo
+total costo de todos los insumos
+TC(Tipo de costo)
+TP(tipo de precio)
+CF(Costo de formula)
+TM(Tipo de moneda)
+
+Componentes
+-------------
+cod de modelo
+cod produc
+cod referencia producto
+nombre
+Cantidad
+costo unitatio
+costo parcial (Sum Costo Formula)
+
+procesos()
+----------
+codigo 3
+Alias
+descripcion 100
+Centro de costo 5
+Tiempo (Tiempo minutos)(Valor minuto)
+moneda
+Costo o importe
+
+
+
+
+tablas
+------
+tapmodel
+detmodel
+
+procesos
+Covercion de producto(TP)
+
+Modelos y Transormaciones
+

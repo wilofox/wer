@@ -1,0 +1,78 @@
+BUTTON {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; CURSOR: pointer; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none; outline: none; moz-outline: none
+}
+UNKNOWN {
+	
+}
+BUTTON SPAN {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(imagenes/btn_right.gif) no-repeat right top; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+BUTTON SPAN SPAN {
+	PADDING-RIGHT: 4px; DISPLAY: block; PADDING-LEFT: 8px; FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: url(imagenes/btn_left.gif) no-repeat; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: lowercase; COLOR: #ffffff; LINE-HEIGHT: 13px; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+.jNiceInputWrapper {
+	BACKGROUND: url(imagenes/input.gif) no-repeat left top; FLOAT: left
+}
+.jNiceInputInner {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; BACKGROUND: url(imagenes/input.gif) no-repeat right top; PADDING-BOTTOM: 2px; MARGIN: 0px 0px 0px 4px; PADDING-TOP: 2px
+}
+.jNiceInputInner INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; COLOR: #404040; BORDER-TOP-STYLE: none; LINE-HEIGHT: 15px; PADDING-TOP: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 15px; BORDER-BOTTOM-STYLE: none; outline: none
+}
+.jNiceInputWrapper_hover {
+	BACKGROUND-POSITION: left bottom
+}
+.jNiceInputWrapper_hover .jNiceInputInner {
+	BACKGROUND-POSITION: right bottom
+}
+.jRadioWrapper {
+	Z-INDEX: 2; FLOAT: left
+}
+.jNiceRadio {
+	BACKGROUND: url(imagenes/radio.gif) no-repeat center top; LEFT: 0px; VERTICAL-ALIGN: middle; WIDTH: 18px; CURSOR: pointer; POSITION: absolute; TOP: 0px; HEIGHT: 18px
+}
+.jNiceCheckbox {
+	Z-INDEX: 2; BACKGROUND: url(imagenes/checkbox.gif) no-repeat center top; LEFT: 0px; WIDTH: 18px; CURSOR: pointer; POSITION: absolute; TOP: 0px; HEIGHT: 18px
+}
+.jNiceChecked {
+	BACKGROUND-POSITION: center bottom
+}
+.jNiceWrapper SELECT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.jNiceSelectWrapper {
+	Z-INDEX: 3; LEFT: 0px; POSITION: absolute; TOP: 0px; HEIGHT: 17px
+}
+.jNiceWrapper IFRAME {
+	Z-INDEX: 1; LEFT: 0px; WIDTH: 100%; POSITION: absolute; TOP: 0px
+}
+.jNiceSelectWrapper .jNiceSelectText {
+	BORDER-RIGHT: #cccccc 1px; PADDING-RIGHT: 3px; BORDER-TOP: #cccccc 1px solid; PADDING-LEFT: 3px; Z-INDEX: 100; FLOAT: none; PADDING-BOTTOM: 0px; OVERFLOW: hidden; BORDER-LEFT: #cccccc 1px solid; LINE-HEIGHT: 15px; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid; POSITION: absolute; HEIGHT: 15px; BACKGROUND-COLOR: #fff
+}
+.jNiceSelectWrapper .jNiceSelectOpen {
+	DISPLAY: block; Z-INDEX: 100; RIGHT: 0px; BACKGROUND: url(imagenes/select_right.gif) no-repeat center center; WIDTH: 21px; POSITION: absolute; HEIGHT: 17px
+}
+.jNiceSelectWrapper UL {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #ccc 1px solid; OVERFLOW-Y: auto; DISPLAY: none; PADDING-LEFT: 0px; Z-INDEX: 100; LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: #ccc 1px solid; WIDTH: 95%; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid; LIST-STYLE-TYPE: none; POSITION: absolute; TOP: 16px; HEIGHT: 150px; BACKGROUND-COLOR: #fff
+}
+.jNiceSelectWrapper UL A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #0099cc; PADDING-TOP: 5px; BACKGROUND-COLOR: #fff; TEXT-DECORATION: none
+}
+.jNiceSelectWrapper UL A:hover {
+	BACKGROUND: #e1f5ff
+}
+.jNiceSelectWrapper UL A.selected {
+	BACKGROUND: #ededed
+}
+.jNiceFocus {
+	BORDER-RIGHT: #666666 1px dotted; BORDER-TOP: #666666 1px dotted; BORDER-LEFT: #666666 1px dotted; BORDER-BOTTOM: #666666 1px dotted
+}
+.jNiceHidden {
+	Z-INDEX: -1; POSITION: relative; opacity: 0
+}
+.jNiceWrapper {
+	VERTICAL-ALIGN: top; POSITION: relative
+}
+.jNiceWrapper INPUT {
+	outline: none; moz-outline: none
+}

@@ -1,0 +1,21 @@
+.jtVeil {
+	DISPLAY: none; FILTER: alpha(opacity=20); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #000000; moz-opacity: 0.2; opacity: 0.2
+}
+.VeilStyle1 {
+	FILTER: alpha(opacity=50); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: white; moz-opacity: 0.5; opacity: 0.5
+}
+.VeilStyle1b {
+	FILTER: alpha(opacity=50); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #99ccff; moz-opacity: 0.3; opacity: 0.3
+}
+.VeilStyle1d {
+	FILTER: alpha(opacity=05); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; BACKGROUND-COLOR: #6a74cb; moz-opacity: 0.05; opacity: 0.05
+}
+.VeilStyle2 {
+	BACKGROUND: url(maskimg_common.gif); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px
+}
+.VeilStyle2b {
+	BACKGROUND: url(maskimg_common.gif); FILTER: alpha(opacity=75); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; moz-opacity: 0.75; opacity: 0.75
+}
+.VeilStyle2c {
+	BACKGROUND: url(maskimg_common.gif); FILTER: alpha(opacity=50); LEFT: 0px; CURSOR: not-allowed; POSITION: absolute; TOP: 0px; moz-opacity: 0.5; opacity: 0.5
+}

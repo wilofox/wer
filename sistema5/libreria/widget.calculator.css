@@ -1,0 +1,99 @@
+.calculator {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #567 1px solid; PADDING-LEFT: 4px; BACKGROUND: url(images/widget-bg.gif) #1e252e repeat-x left top; PADDING-BOTTOM: 4px; BORDER-LEFT: #456 1px solid; WIDTH: 230px; PADDING-TOP: 4px; BORDER-BOTTOM: #000 1px solid; HEIGHT: 262px
+}
+.calculator .entry {
+	BORDER-RIGHT: #456 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #123 2px solid; PADDING-LEFT: 0px; FONT-SIZE: 32px; BACKGROUND: url(images/title-bg.gif) #000 repeat-x left -5px; PADDING-BOTTOM: 0px; MARGIN: 4px 2px; BORDER-LEFT: #123 2px solid; WIDTH: 217px; COLOR: #0fb; PADDING-TOP: 0px; BORDER-BOTTOM: #456 2px solid; FONT-FAMILY: Courier; HEIGHT: 38px; TEXT-ALIGN: right; outline: none; text-shadow: 0 -3px 10px #0cf, 0 5px 10px #0fc, 0 0 4px #0fc, 0 0 3px #0cf
+}
+.calculator .entry:unknown {
+	BORDER-RIGHT: #456 2px solid; PADDING-RIGHT: 5px; BORDER-TOP: #123 2px solid; PADDING-LEFT: 0px; FONT-SIZE: 32px; BACKGROUND: url(images/title-bg.gif) #000 repeat-x left -5px; PADDING-BOTTOM: 0px; MARGIN: 4px 2px; BORDER-LEFT: #123 2px solid; WIDTH: 217px; COLOR: #0fb; PADDING-TOP: 0px; BORDER-BOTTOM: #456 2px solid; FONT-FAMILY: Courier; HEIGHT: 38px; TEXT-ALIGN: right; outline: none; text-shadow: 0 -3px 10px #0cf, 0 5px 10px #0fc, 0 0 4px #0fc, 0 0 3px #0cf
+}
+.calculator .buttonShell {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 1px; BORDER-TOP: #000 1px solid; PADDING-LEFT: 1px; BACKGROUND: #000; FLOAT: left; PADDING-BOTTOM: 1px; MARGIN: 3px; BORDER-LEFT: #000 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #000 1px solid
+}
+.calculator .button {
+	DISPLAY: block; FONT-SIZE: 19px; WIDTH: 20px; FONT-FAMILY: Verdana; WHITE-SPACE: nowrap; HEIGHT: 25px
+}
+.calculator .button {
+	BORDER-RIGHT: #222 1px solid; BORDER-TOP: #3f444f 1px solid; BACKGROUND: url(images/button-bg-dark.gif) #000 repeat-x left top; BORDER-LEFT: #3f444f 1px solid; COLOR: #a6aaaf; BORDER-BOTTOM: #223 1px solid; text-shadow: none
+}
+.calculator .button:link {
+	BORDER-RIGHT: #222 1px solid; BORDER-TOP: #3f444f 1px solid; BACKGROUND: url(images/button-bg-dark.gif) #000 repeat-x left top; BORDER-LEFT: #3f444f 1px solid; COLOR: #a6aaaf; BORDER-BOTTOM: #223 1px solid; text-shadow: none
+}
+.calculator .button:visited {
+	BORDER-RIGHT: #222 1px solid; BORDER-TOP: #3f444f 1px solid; BACKGROUND: url(images/button-bg-dark.gif) #000 repeat-x left top; BORDER-LEFT: #3f444f 1px solid; COLOR: #a6aaaf; BORDER-BOTTOM: #223 1px solid; text-shadow: none
+}
+.calculator .button:hover {
+	BORDER-RIGHT: #222 1px solid; BORDER-TOP: #3f444f 1px solid; BACKGROUND: url(images/button-bg-dark.gif) #000 repeat-x left top; BORDER-LEFT: #3f444f 1px solid; COLOR: #a6aaaf; BORDER-BOTTOM: #223 1px solid; text-shadow: none
+}
+.calculator .button:active {
+	BORDER-RIGHT: #222 1px solid; BORDER-TOP: #3f444f 1px solid; BACKGROUND: url(images/button-bg-dark.gif) #000 repeat-x left top; BORDER-LEFT: #3f444f 1px solid; COLOR: #a6aaaf; BORDER-BOTTOM: #223 1px solid; text-shadow: none
+}
+.calculator .buttonOver {
+	BORDER-LEFT-COLOR: #778; BORDER-BOTTOM-COLOR: #334; COLOR: #c6cacf; BORDER-TOP-COLOR: #889; BORDER-RIGHT-COLOR: #000; text-shadow: none
+}
+.calculator .buttonOver:link {
+	BORDER-LEFT-COLOR: #778; BORDER-BOTTOM-COLOR: #334; COLOR: #c6cacf; BORDER-TOP-COLOR: #889; BORDER-RIGHT-COLOR: #000; text-shadow: none
+}
+.calculator .buttonOver:visited {
+	BORDER-LEFT-COLOR: #778; BORDER-BOTTOM-COLOR: #334; COLOR: #c6cacf; BORDER-TOP-COLOR: #889; BORDER-RIGHT-COLOR: #000; text-shadow: none
+}
+.calculator .buttonOver:hover {
+	BORDER-LEFT-COLOR: #778; BORDER-BOTTOM-COLOR: #334; COLOR: #c6cacf; BORDER-TOP-COLOR: #889; BORDER-RIGHT-COLOR: #000; text-shadow: none
+}
+.calculator .buttonOver:active {
+	BORDER-LEFT-COLOR: #778; BORDER-BOTTOM-COLOR: #334; COLOR: #c6cacf; BORDER-TOP-COLOR: #889; BORDER-RIGHT-COLOR: #000; text-shadow: none
+}
+.calculator .buttonActive {
+	BORDER-LEFT-COLOR: #999; BORDER-BOTTOM-COLOR: #223; COLOR: #fff; BORDER-TOP-COLOR: #bbb; BORDER-RIGHT-COLOR: #000; text-shadow: -.1em 0 .1em #000, .1em 0 .1em #000, 0 -.1em .1em #000, 0 .1em .1em #000, 0 0 .3em #fff, 0 0 .5em #fff, 0 0 .6em #fff
+}
+.calculator .buttonActive:link {
+	BORDER-LEFT-COLOR: #999; BORDER-BOTTOM-COLOR: #223; COLOR: #fff; BORDER-TOP-COLOR: #bbb; BORDER-RIGHT-COLOR: #000; text-shadow: -.1em 0 .1em #000, .1em 0 .1em #000, 0 -.1em .1em #000, 0 .1em .1em #000, 0 0 .3em #fff, 0 0 .5em #fff, 0 0 .6em #fff
+}
+.calculator .buttonActive:visited {
+	BORDER-LEFT-COLOR: #999; BORDER-BOTTOM-COLOR: #223; COLOR: #fff; BORDER-TOP-COLOR: #bbb; BORDER-RIGHT-COLOR: #000; text-shadow: -.1em 0 .1em #000, .1em 0 .1em #000, 0 -.1em .1em #000, 0 .1em .1em #000, 0 0 .3em #fff, 0 0 .5em #fff, 0 0 .6em #fff
+}
+.calculator .buttonActive:hover {
+	BORDER-LEFT-COLOR: #999; BORDER-BOTTOM-COLOR: #223; COLOR: #fff; BORDER-TOP-COLOR: #bbb; BORDER-RIGHT-COLOR: #000; text-shadow: -.1em 0 .1em #000, .1em 0 .1em #000, 0 -.1em .1em #000, 0 .1em .1em #000, 0 0 .3em #fff, 0 0 .5em #fff, 0 0 .6em #fff
+}
+.calculator .buttonActive:active {
+	BORDER-LEFT-COLOR: #999; BORDER-BOTTOM-COLOR: #223; COLOR: #fff; BORDER-TOP-COLOR: #bbb; BORDER-RIGHT-COLOR: #000; text-shadow: -.1em 0 .1em #000, .1em 0 .1em #000, 0 -.1em .1em #000, 0 .1em .1em #000, 0 0 .3em #fff, 0 0 .5em #fff, 0 0 .6em #fff
+}
+.calculator .buttonGrayed {
+	BORDER-LEFT-COLOR: #333; BORDER-BOTTOM-COLOR: #222; COLOR: #555; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #222; text-shadow: none
+}
+.calculator .buttonGrayed:link {
+	BORDER-LEFT-COLOR: #333; BORDER-BOTTOM-COLOR: #222; COLOR: #555; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #222; text-shadow: none
+}
+.calculator .buttonGrayed:visited {
+	BORDER-LEFT-COLOR: #333; BORDER-BOTTOM-COLOR: #222; COLOR: #555; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #222; text-shadow: none
+}
+.calculator .buttonGrayed:hover {
+	BORDER-LEFT-COLOR: #333; BORDER-BOTTOM-COLOR: #222; COLOR: #555; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #222; text-shadow: none
+}
+.calculator .buttonGrayed:active {
+	BORDER-LEFT-COLOR: #333; BORDER-BOTTOM-COLOR: #222; COLOR: #555; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #222; text-shadow: none
+}
+.calculator .digitButton {
+	BORDER-LEFT-COLOR: #047; BORDER-BOTTOM-COLOR: #047; BORDER-TOP-COLOR: #047; BORDER-RIGHT-COLOR: #047
+}
+.calculator .memoryButton {
+	BORDER-LEFT-COLOR: #740; BORDER-BOTTOM-COLOR: #740; BORDER-TOP-COLOR: #740; BORDER-RIGHT-COLOR: #740
+}
+.calculator .operatorButtonBasic {
+	BORDER-LEFT-COLOR: #354; BORDER-BOTTOM-COLOR: #354; BORDER-TOP-COLOR: #354; BORDER-RIGHT-COLOR: #354
+}
+.calculator .operatorButtonNegate .button {
+	LETTER-SPACING: -1px
+}
+.calculator .memoryButton .button {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 22px
+}
+.calculator .operatorButtonClearEntry .button {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 22px
+}
+.calculator .operatorButtonClear .button {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 22px
+}
+.calculator .operatorButtonNegate .button {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; LINE-HEIGHT: 22px
+}

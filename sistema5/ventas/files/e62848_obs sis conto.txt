@@ -1,0 +1,21 @@
+**CONTÓMETROS**
+- Agregar la opción de registro de pc para registrar marcaje de contómetros y varillaje 
+(como en el RP).
+- Tener libertad de crear nuevas empresas o agregar 3 nuevas empresas.
+- La capacidad de tanques debe permitir números decimales.
+- Tanque de glp no se maneja con varillaje -no se especificó con el dato 
+que le arroja el ticket de su sistema (volumen actual), estos tanques no manejan largo ni radio. (NO LO HABIAN ESPECIFICADO, NUEVO REQUERIMIENTO).
+- Falta un filtro en el registro de contómetros y varillaje para empresa y locales.
+- Agregar 4 turnos en nuevo contometraje (no todos se van a usar).
+- El campo factor debe estar en el maestro de manguera (se asigna al momento de crear la manguera) y debe mostrarse.
+- En el reporte de contometros no se muestra el registro cuando se ingresa de solo un turno.
+
+
+**IMPORTACIONES**
+- Las importaciones creadas no se muestran en seguimiento.
+
+**ORDEN DE ENSAMBLAJE**
+- Llama a la OE y se elimina un item con serie, se vuelve a llamar a ese producto y ya no se muestra la serie anterior (con el primero que se elimina).
+- Los TB y TF (referenciando OE) no se muestran en el kardex físico.
+ 
+

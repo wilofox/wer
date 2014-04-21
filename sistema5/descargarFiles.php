@@ -1,0 +1,13 @@
+<? 
+
+function Descargar($ElFichero){ 
+$TheFile = basename($ElFichero); 
+header( "Content-Type: application/octet-stream"); 
+//header( "Content-Length: ".filesize($ElFichero)); 
+header( "Content-Disposition: attachment; filename=".$TheFile.""); 
+readfile($ElFichero);
+}
+
+Descargar($_REQUEST['ruta']); 
+
+?>

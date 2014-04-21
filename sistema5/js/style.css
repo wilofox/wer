@@ -1,0 +1,558 @@
+ {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+HTML {
+	OVERFLOW-Y: scroll
+}
+BODY {
+	BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/body-pattern.gif) repeat-x left top; FONT: 62.5% Arial, Verdana, Sans-Serif; COLOR: #797979
+}
+P {
+	FONT-SIZE: 1.2em
+}
+DL {
+	FONT-SIZE: 1.2em
+}
+UL {
+	FONT-SIZE: 1.2em
+}
+P {
+	MARGIN: 0px 0px 15px
+}
+A {
+	COLOR: #1799a9
+}
+A:hover {
+	COLOR: #1799a9; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #999
+}
+A:hover {
+	COLOR: #999
+}
+A:unknown {
+	outline: none
+}
+.cboth {
+	CLEAR: both
+}
+PRE {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 5px; FONT-SIZE: 1.6em; BACKGROUND: #fff; OVERFLOW-X: scroll; PADDING-BOTTOM: 5px; MARGIN: 0px 0px 15px; BORDER-LEFT: #eee 1px solid; WIDTH: 635px; PADDING-TOP: 5px; BORDER-BOTTOM: #eee 1px solid
+}
+.follow {
+	BORDER-RIGHT: #d2d2d2 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #d2d2d2 1px solid; PADDING-LEFT: 3px; BACKGROUND: #e8e8e8; PADDING-BOTTOM: 3px; BORDER-LEFT: #d2d2d2 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #d2d2d2 1px solid; border-radius: 3px; moz-border-radius: 3px; webkit-border-radius: 3px
+}
+.alignleft {
+	FLOAT: left
+}
+.alignright {
+	FLOAT: right
+}
+.marginleft {
+	MARGIN: 0px 30px 0px 0px
+}
+.pagetitle {
+	FONT-WEIGHT: normal; FONT-SIZE: 3.2em; MARGIN-BOTTOM: 20px; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+OL {
+	FONT-SIZE: 1.2em; MARGIN: 0px 0px 15px 20px
+}
+OL LI {
+	MARGIN: 0px 0px 3px
+}
+#page {
+	
+}
+header {
+	DISPLAY: block; LEFT: 50%; MARGIN-LEFT: -489px; WIDTH: 1065px; POSITION: relative; HEIGHT: 57px
+}
+#content-container {
+	CLEAR: both; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/content-background.gif) no-repeat center top; POSITION: relative
+}
+#container {
+	PADDING-RIGHT: 25px; PADDING-LEFT: 25px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/contentTop.gif) no-repeat left top; PADDING-BOTTOM: 20px; PADDING-TOP: 20px
+}
+#content {
+	FLOAT: left; MARGIN: 0px 35px 0px 0px; WIDTH: 630px
+}
+#sidebar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; Z-INDEX: 1000; RIGHT: 0px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) repeat-y left top; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 20px; WIDTH: 284px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px
+}
+#footer {
+	CLEAR: both; DISPLAY: block; FONT-SIZE: 0.82em; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/footer-pattern.gif) repeat-x left top; TEXT-TRANSFORM: uppercase; WIDTH: 100%; HEIGHT: 38px
+}
+#footer .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 968px; PADDING-TOP: 18px
+}
+#footer P {
+	FLOAT: left
+}
+#footer nav {
+	FLOAT: right
+}
+#footer UL {
+	LIST-STYLE-TYPE: none
+}
+#footer LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 0px 0px 10px
+}
+header .content {
+	BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/header-background.gif) no-repeat 0px 100%; HEIGHT: 100%
+}
+header A {
+	COLOR: #f9d300
+}
+#logo {
+	FLOAT: left; MARGIN: 15px 0px 0px
+}
+#logo A {
+	DISPLAY: block; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/logo-no-margin-for-errors.gif) no-repeat 0px 100%; WIDTH: 296px; TEXT-INDENT: -10000px; HEIGHT: 18px
+}
+header nav {
+	FLOAT: right; MARGIN: 0px 87px 0px 0px; FONT-STYLE: italic; FONT-FAMILY: Georgia, Times, serif
+}
+header nav LI {
+	DISPLAY: block; FLOAT: left; TEXT-ALIGN: center
+}
+header nav A {
+	DISPLAY: block; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/menu-pattern.gif) left top; FLOAT: left; WIDTH: 95px; COLOR: #fff; LINE-HEIGHT: 57px
+}
+header nav A:visited {
+	DISPLAY: block; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/menu-pattern.gif) left top; FLOAT: left; WIDTH: 95px; COLOR: #fff; LINE-HEIGHT: 57px
+}
+header nav A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+header nav A:hover {
+	COLOR: #fff; TEXT-DECORATION: none
+}
+.current_page_item A {
+	BACKGROUND: #fff; COLOR: #000! important
+}
+.current_page_ancestor A {
+	BACKGROUND: #fff; COLOR: #000! important
+}
+.current_page_item A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.current_page_ancestor A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+.submenu {
+	BACKGROUND: #f9d300; FLOAT: left; WIDTH: 100%; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia, Times, serif
+}
+.submenu .content {
+	DISPLAY: block; MIN-HEIGHT: 8px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/submenu-background.gif) no-repeat left top; LEFT: 50%; MARGIN-LEFT: -489px; WIDTH: 1065px; POSITION: relative
+}
+.submenu UL {
+	FONT-SIZE: 1.4em; FLOAT: right; MARGIN: 0px 87px 0px 0px; LIST-STYLE-TYPE: none
+}
+.submenu LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 0px 0px 10px
+}
+.submenu A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px
+}
+.submenu A:visited {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; COLOR: #000; PADDING-TOP: 5px
+}
+.submenu .current_page_item A {
+	BACKGROUND: #000; COLOR: #fff! important; TEXT-DECORATION: none
+}
+.submenu .current_page_ancestor A {
+	BACKGROUND: #000; COLOR: #fff! important; TEXT-DECORATION: none
+}
+#content-container .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 978px; PADDING-TOP: 7px; POSITION: relative
+}
+#content-container header {
+	LEFT: auto; FLOAT: left; MARGIN: 0px 0px 15px auto; WIDTH: auto; TOP: auto; HEIGHT: auto
+}
+.home #content-container header {
+	MARGIN-BOTTOM: 25px
+}
+#content-container .content section {
+	FLOAT: left; WIDTH: 672px; POSITION: relative
+}
+.label {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 1em; BACKGROUND: #000; FLOAT: left; PADDING-BOTTOM: 3px; TEXT-TRANSFORM: uppercase; COLOR: #fff; PADDING-TOP: 3px; FONT-FAMILY: Arial
+}
+#sidebar .label {
+	FONT-SIZE: 0.85em
+}
+#content-container .content article {
+	DISPLAY: block; MIN-HEIGHT: 245px; MARGIN-BOTTOM: 28px
+}
+#content-container .content article.hasThumb {
+	PADDING-LEFT: 243px; POSITION: relative
+}
+article .thumbnail {
+	CLEAR: left; BORDER-RIGHT: #2a2a2a 3px solid; BORDER-TOP: #2a2a2a 3px solid; LEFT: 0px; FLOAT: left; BORDER-LEFT: #2a2a2a 3px solid; BORDER-BOTTOM: #2a2a2a 3px solid; POSITION: absolute
+}
+article .thumbnail:hover {
+	BORDER-LEFT-COLOR: #1799a9; BORDER-BOTTOM-COLOR: #1799a9; BORDER-TOP-COLOR: #1799a9; BORDER-RIGHT-COLOR: #1799a9
+}
+article .thumbnail IMG {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; DISPLAY: block; BORDER-LEFT: #fff 1px solid; BORDER-BOTTOM: #fff 1px solid
+}
+article H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 2.8em; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+article H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 2.8em; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+article H3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 2.2em; MARGIN: 25px 0px 10px; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+article H4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.6em; MARGIN: 5px 0px; COLOR: #000; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+H1 A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 1.25; PADDING-TOP: 0px
+}
+H2 A {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 1.25; PADDING-TOP: 0px
+}
+H1 A:visited {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 1.25; PADDING-TOP: 0px
+}
+H2 A:visited {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 1.25; PADDING-TOP: 0px
+}
+H1 SPAN {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; COLOR: #000; LINE-HEIGHT: 1.25; PADDING-TOP: 0px
+}
+H1 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+H2 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+H1 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+H2 A:hover {
+	COLOR: #000; TEXT-DECORATION: none
+}
+article P {
+	CLEAR: left; LINE-HEIGHT: 1.3
+}
+article P STRONG {
+	COLOR: #000
+}
+article P.label {
+	BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: -15px 0px 15px -3px
+}
+article UL {
+	MARGIN: 0px 0px 15px 15px
+}
+.inside article {
+	MIN-HEIGHT: 220px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) repeat-x left bottom; PADDING-BOTTOM: 35px
+}
+.content footer {
+	PADDING-RIGHT: 0px; BORDER-TOP: #ececec 1px solid; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 0.92em; PADDING-BOTTOM: 0px; PADDING-TOP: 15px
+}
+.content footer STRONG {
+	COLOR: #000
+}
+.featured {
+	CLEAR: both; BACKGROUND: #282828; FLOAT: left; WIDTH: 100%
+}
+.featured .content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 13px; PADDING-BOTTOM: 35px; PADDING-TOP: 25px
+}
+.featured article {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 220px; PADDING-TOP: 0px
+}
+.featured .thumbnail {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; LEFT: auto; MARGIN: 0px 0px 30px; OVERFLOW: hidden; BORDER-LEFT: #fff 1px solid; WIDTH: 210px; BORDER-BOTTOM: #fff 1px solid; POSITION: relative; TOP: auto; HEIGHT: 98px
+}
+.featured .thumbnail:hover {
+	BORDER-LEFT-COLOR: #1799a9; BORDER-BOTTOM-COLOR: #1799a9; BORDER-TOP-COLOR: #1799a9; BORDER-RIGHT-COLOR: #1799a9
+}
+.featured .thumbnail IMG {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: -45px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.featured header {
+	CLEAR: both
+}
+.featured H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.8em; FONT-STYLE: italic; FONT-FAMILY: Georgia
+}
+.featured H2 A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #fff
+}
+.featured P {
+	FONT-SIZE: 1.1em; MARGIN: 0px 20px 15px 0px
+}
+.featured .more {
+	FONT-SIZE: 1.1em
+}
+.navigation {
+	FONT-SIZE: 1.8em; FLOAT: left; MARGIN: 20px 0px; WIDTH: 100%; FONT-FAMILY: Georgia
+}
+.more {
+	FONT-SIZE: 1.8em; FONT-FAMILY: Georgia
+}
+.content #searchform {
+	CLEAR: both; FLOAT: left; MARGIN: 20px 0px
+}
+.content #searchform INPUT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.content #searchform INPUT.submit {
+	MARGIN: -3px 0px 0px 2px
+}
+#sidebar FORM {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/search-background.gif) #f9d300 no-repeat -4px -2px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar .label {
+	MARGIN-LEFT: -10px
+}
+#sidebar H3.label {
+	MARGIN-LEFT: -15px
+}
+#sidebar FORM INPUT {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; FLOAT: left; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 4px; MARGIN: 18px 2px 0px 0px; WIDTH: 235px; PADDING-TOP: 3px; BORDER-RIGHT-WIDTH: 0px
+}
+#sidebar FORM INPUT.submit {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 18px 0px 0px; WIDTH: auto; PADDING-TOP: 0px
+}
+#sidebar FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) repeat-x left bottom; PADDING-BOTTOM: 23px; PADDING-TOP: 12px
+}
+#sidebar UL {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 0px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) #fff repeat-y 282px 0px; PADDING-BOTTOM: 0px; WIDTH: 282px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sidebar LI {
+	CLEAR: both; PADDING-RIGHT: 15px; PADDING-LEFT: 15px; BACKGROUND: #fff; FLOAT: left; PADDING-BOTTOM: 15px; WIDTH: 252px; PADDING-TOP: 0px
+}
+#sidebar LI.form {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; WIDTH: 100%
+}
+#sidebar .simpleList {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; MARGIN: 15px 0px 0px; WIDTH: auto
+}
+#sidebar .simpleList LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#sidebar .twitter LI {
+	MARGIN-BOTTOM: 15px! important
+}
+#sidebar .comments LI {
+	MARGIN: 0px 0px 14px
+}
+#sidebar .comments A {
+	COLOR: #797979; FONT-STYLE: italic; TEXT-DECORATION: none
+}
+#sidebar .comments A:hover {
+	TEXT-DECORATION: underline
+}
+#sidebar .comments SMALL {
+	COLOR: #1799a9
+}
+#sidebar .twitter-feed SMALL {
+	COLOR: #1799a9
+}
+#sidebar .ads A {
+	FLOAT: left; MARGIN: 0px 0px 8px
+}
+.comments .label {
+	MARGIN: 15px 0px 0px
+}
+.commentlist {
+	CLEAR: both; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) repeat-x left bottom; PADDING-BOTTOM: 5px; MARGIN: 15px 0px 0px; LIST-STYLE-TYPE: none
+}
+.commentlist LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/dotted-lines.gif) repeat-x left top; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 1px
+}
+.commentlist .bypostauthor .comment-body {
+	BACKGROUND: #eee; COLOR: #000
+}
+.commentlist .bypostauthor .comment-body A {
+	COLOR: #000
+}
+.commentlist .bypostauthor .comment-body A:visited {
+	COLOR: #000
+}
+.comment-body {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 115px; MIN-HEIGHT: 115px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px
+}
+.comment-author {
+	LEFT: 10px; WIDTH: 100px; POSITION: absolute
+}
+.comment-author CITE {
+	CLEAR: left; DISPLAY: block
+}
+.comment-meta {
+	MARGIN: 0px 0px 10px
+}
+.cancel-comment-reply {
+	MARGIN-TOP: 15px
+}
+#commentform INPUT {
+	BORDER-RIGHT: #797979 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #797979 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 1em; BACKGROUND: #fff; PADDING-BOTTOM: 3px; BORDER-LEFT: #797979 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #797979 1px solid; FONT-FAMILY: Arial
+}
+#commentform TEXTAREA {
+	BORDER-RIGHT: #797979 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #797979 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 1em; BACKGROUND: #fff; PADDING-BOTTOM: 3px; BORDER-LEFT: #797979 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #797979 1px solid; FONT-FAMILY: Arial
+}
+.textarea {
+	BORDER-RIGHT: #797979 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #797979 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 1em; BACKGROUND: #fff; PADDING-BOTTOM: 3px; BORDER-LEFT: #797979 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #797979 1px solid; FONT-FAMILY: Arial
+}
+#commentform INPUT {
+	WIDTH: 300px
+}
+#commentform INPUT#submit {
+	WIDTH: auto
+}
+#commentform TEXTAREA {
+	WIDTH: 635px
+}
+.textarea {
+	WIDTH: 635px
+}
+#commentform LABEL {
+	DISPLAY: block
+}
+#commentform P {
+	FLOAT: left; MARGIN: 0px 25px 15px 0px
+}
+.tabs {
+	CLEAR: left; FLOAT: left; MARGIN: 0px 0px 30px
+}
+.tabs OL {
+	MARGIN: 0px 0px 0px 20px; LIST-STYLE-TYPE: decimal
+}
+.tabs OL LI {
+	DISPLAY: list-item; FLOAT: none
+}
+.tabs UL.nav {
+	WIDTH: 655px
+}
+.tabs UL {
+	FLOAT: left; MARGIN: 0px 0px 5px; LIST-STYLE-TYPE: none
+}
+.tabs LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 5px 0px 0px
+}
+.tabs .selected {
+	MARGIN-BOTTOM: -5px; POSITION: relative
+}
+.tabs .selected A {
+	BACKGROUND: #eee; PADDING-BOTTOM: 10px; COLOR: #000
+}
+.tabs A:hover {
+	BACKGROUND: #eee; COLOR: #000
+}
+.tabs A {
+	PADDING-RIGHT: 5px; DISPLAY: block; PADDING-LEFT: 5px; BACKGROUND: url(http://media.no-margin-for-errors.com/wp-content/themes/NMFE/images/menu-pattern.gif) left top; PADDING-BOTTOM: 5px; COLOR: #fff; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+.tabs .content {
+	CLEAR: both; PADDING-RIGHT: 10px! important; PADDING-LEFT: 10px! important; BACKGROUND: #eee; FLOAT: left; PADDING-BOTTOM: 10px! important; WIDTH: 645px! important; PADDING-TOP: 10px! important
+}
+.tabs P {
+	MARGIN-BOTTOM: 0px
+}
+UL.noBull {
+	FLOAT: left; LIST-STYLE-TYPE: none
+}
+UL LI.current {
+	FONT-WEIGHT: bold; COLOR: #000
+}
+UL.noBull LI.current {
+	MARGIN-LEFT: -2px
+}
+UL.noBull LI {
+	MARGIN: 0px 0px 5px
+}
+UL LI SPAN.counter {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 10px 0px 0px; WIDTH: 30px; TEXT-ALIGN: right
+}
+UL LI SPAN.description {
+	DISPLAY: block; FLOAT: left; WIDTH: 615px
+}
+UL.gallery {
+	MARGIN: 0px 0px 10px; LIST-STYLE-TYPE: none
+}
+UL.gallery LI {
+	DISPLAY: block; FLOAT: left; MARGIN: 0px 5px 0px 0px
+}
+UL.gallery A {
+	BORDER-RIGHT: #000 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000 2px solid; DISPLAY: block; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #000 2px solid; LINE-HEIGHT: 0; PADDING-TOP: 2px; BORDER-BOTTOM: #000 2px solid; moz-border-radius: 5px; webkit-border-radius: 5px
+}
+UL.gallery A:hover {
+	BORDER-RIGHT: #999 2px solid; BORDER-TOP: #999 2px solid; BORDER-LEFT: #999 2px solid; BORDER-BOTTOM: #999 2px solid
+}
+.gallery A {
+	BORDER-RIGHT: #000 1px solid; PADDING-RIGHT: 2px! important; BORDER-TOP: #000 1px solid; DISPLAY: block; PADDING-LEFT: 2px! important; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 2px! important; BORDER-LEFT: #000 1px solid; WIDTH: 50px; PADDING-TOP: 2px! important; BORDER-BOTTOM: #000 1px solid; HEIGHT: 50px
+}
+.gallery A:hover {
+	BORDER-LEFT-COLOR: #1799a9; BORDER-BOTTOM-COLOR: #1799a9; BORDER-TOP-COLOR: #1799a9; BORDER-RIGHT-COLOR: #1799a9
+}
+.page-template-default H1 {
+	MARGIN: 0px 0px 25px
+}
+.page-template-default H2 {
+	CLEAR: both; FONT-SIZE: 2.4em! important; MARGIN: 35px 0px 10px
+}
+.page-template-default article {
+	PADDING-TOP: 28px
+}
+.single article {
+	PADDING-TOP: 28px
+}
+.search article {
+	PADDING-TOP: 28px
+}
+.page-template-default article .thumbnail {
+	CLEAR: none! important; LEFT: auto! important; FLOAT: left! important; MARGIN: 0px 25px 15px 0px; POSITION: static! important; TOP: auto! important
+}
+.single article .thumbnail {
+	CLEAR: none! important; LEFT: auto! important; FLOAT: left! important; MARGIN: 0px 25px 15px 0px; POSITION: static! important; TOP: auto! important
+}
+.single header {
+	FLOAT: none! important
+}
+.single article P.label {
+	CLEAR: none; FLOAT: none
+}
+.single article P {
+	CLEAR: none
+}
+.page-template-default article P {
+	CLEAR: none! important
+}
+.buttons {
+	CLEAR: left; FLOAT: left; MARGIN: 0px 24px 15px 0px; WIDTH: 219px
+}
+.hide {
+	DISPLAY: none
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}
+#template {
+	LEFT: 50%; MARGIN-LEFT: -576px; POSITION: absolute; TOP: 0px; opacity: 0.5
+}
+.small#template {
+	BORDER-RIGHT: red 1px solid; BORDER-TOP: red 1px solid; OVERFLOW: hidden; BORDER-LEFT: red 1px solid; BORDER-BOTTOM: red 1px solid; HEIGHT: 20px
+}
+.clearfix:unknown {
+	CLEAR: both; DISPLAY: block; VISIBILITY: hidden; HEIGHT: 0px; content: "."
+}
+.clearfix {
+	DISPLAY: inline-block
+}
+ HTML .clearfix {
+	HEIGHT: 1%
+}
+.clearfix {
+	DISPLAY: block
+}

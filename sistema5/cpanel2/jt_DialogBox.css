@@ -1,0 +1,21 @@
+DIV.jtDialogBox {
+	DISPLAY: none; POSITION: absolute
+}
+DIV.jtDialogBox .tbLeft {
+	BACKGROUND: url(dialogTL.gif) no-repeat left top; WIDTH: 10px
+}
+DIV.jtDialogBox .tbRight {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 0px; BACKGROUND: url(dialogTR.gif) no-repeat right top; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: top; WIDTH: 16px; PADDING-TOP: 8px
+}
+DIV.jtDialogBox .Title {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: url(dialogTM.gif) #a9a9a9 50% top; PADDING-BOTTOM: 2px; CURSOR: move; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap
+}
+DIV.jtDialogBox {
+	BORDER-RIGHT: #ababab 1px solid; BORDER-TOP: #ededed 1px solid; BORDER-LEFT: #ededed 1px solid; BORDER-BOTTOM: #ababab 1px solid
+}
+DIV.jtDialogBox .MainPanel {
+	BORDER-RIGHT: #4e4e4e 1px solid; BORDER-TOP: #898989 1px solid; BORDER-LEFT: #898989 1px solid; BORDER-BOTTOM: #4e4e4e 1px solid; BACKGROUND-COLOR: #ffffff
+}
+DIV.jtDialogBox .MainPanel .ContentArea {
+	MARGIN: 16px
+}

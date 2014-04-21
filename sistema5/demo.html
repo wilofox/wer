@@ -1,0 +1,47 @@
+<html>
+ <head>
+  <script language="JavaScript">
+
+   //var aVals = new Array(1, 1, 2, 3, 3, 3, 5, 5, 7, 11);
+     var aVals = new Array(21, 16 ,31 ,14 ,12 ,21 ,21 ,21 ,14 );
+
+   function countValues(aVals){
+    var aRes = new Array();
+    var nPrev = aVals[0];
+    var nCount = 0;
+    for (var i = 0; i < aVals.length; i++){
+     if (aVals[i] != nPrev){
+      if (nPrev != -1)
+       aRes.push(new Array(nPrev, nCount));
+      nCount = 1;
+      nPrev = aVals[i];
+     } else nCount++;
+    }
+    aRes.push(new Array(nPrev, nCount));
+    return aRes;
+   }
+
+  </script>
+ </head>
+ <body>
+  <script language="JavaScript">
+
+    document.writeln("<table border='1'>");
+    document.writeln("<tr><td colspan='2' align='center'>Valores originales</td></tr>");
+    for (var i = 0; i < aVals.length; i++){
+     document.writeln("<tr><td bgcolor='#cccccc'>" + i + "</td><td>" + aVals[i] + "</td></tr>");
+    }
+    document.writeln("</table>");
+    document.writeln("<br><br><br>");
+	
+    aCount = countValues(aVals);
+    document.writeln("<table border='1'>");
+    document.writeln("<tr><td colspan='3' align='center'>Cuenta por valor</td></tr>");
+    for (var i = 0; i < aCount.length; i++){
+     document.writeln("<tr><td bgcolor='#cccccc'>" + i + "</td><td>" + aCount[i][0] + "</td><td>" + aCount[i][1] + "</td></tr>");
+    }
+    document.writeln("</table>");
+
+  </script>
+ </body>
+</html>  

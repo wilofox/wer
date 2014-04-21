@@ -1,0 +1,27 @@
+.dhtmlgoodies_tabPane {
+	BORDER-BOTTOM: #919b9c 1px solid; HEIGHT: 21px; width:500px;
+}
+.dhtmlgoodies_aTab {
+	BORDER-RIGHT: #919b9c 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; BORDER-LEFT: #919b9c 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #919b9c 1px solid; FONT-FAMILY: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif
+}
+.dhtmlgoodies_tabPane DIV {
+	BACKGROUND-POSITION: left bottom; PADDING-LEFT: 3px; FLOAT: left; MARGIN-LEFT: 0px; VERTICAL-ALIGN: middle; CURSOR: pointer; BOTTOM: -1px; MARGIN-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; POSITION: relative; HEIGHT: 100%; color:#000000
+}
+.dhtmlgoodies_tabPane .tabActive {
+	Z-INDEX: 10; BACKGROUND-IMAGE: url(../images/tab_left_active.gif); MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.dhtmlgoodies_tabPane .tabInactive {
+	Z-INDEX: 1; BACKGROUND-IMAGE: url(../images/tab_left_inactive.gif); MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.dhtmlgoodies_tabPane .inactiveTabOver {
+	BACKGROUND-IMAGE: url(../images/tab_left_over.gif); MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+}
+.dhtmlgoodies_tabPane SPAN {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 11px; FLOAT: left; VERTICAL-ALIGN: top; LINE-HEIGHT: 21px; FONT-FAMILY: arial
+}
+.dhtmlgoodies_tabPane .tabActive SPAN {
+	PADDING-BOTTOM: 1px; LINE-HEIGHT: 20px
+}
+.dhtmlgoodies_tabPane IMG {
+	FLOAT: left
+}

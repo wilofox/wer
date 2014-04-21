@@ -1,0 +1,39 @@
+LABEL.checkbox SPAN.holder {
+	BACKGROUND: url(../images/prettyCheckboxes/checkbox.gif) no-repeat 0px -1px; HEIGHT: 61px
+}
+LABEL.radio SPAN.holder {
+	BACKGROUND: url(../images/prettyCheckboxes/radio.gif) no-repeat 0px -1px; HEIGHT: 61px
+}
+LABEL.checkbox:hover SPAN.holder {
+	TOP: -21px! important
+}
+LABEL.radio:hover SPAN.holder {
+	TOP: -21px! important
+}
+LABEL.checked SPAN.holder {
+	TOP: -42px! important
+}
+LABEL.checked SPAN.holder {
+	TOP: -42px! important
+}
+LABEL.checked:hover SPAN.holder {
+	TOP: -42px! important
+}
+LABEL.checked:hover SPAN.holder {
+	TOP: -42px! important
+}
+LABEL.list {
+	CLEAR: left; FLOAT: left; MARGIN: 0px 0px 5px
+}
+LABEL.inline {
+	FLOAT: left; MARGIN: 0px 10px 0px 0px
+}
+INPUT.hiddenCheckbox {
+	LEFT: -10000px; POSITION: absolute
+}
+LABEL.prettyCheckbox SPAN.holderWrap {
+	DISPLAY: block; FLOAT: left; OVERFLOW: hidden; MARGIN-RIGHT: 5px; POSITION: relative
+}
+LABEL.prettyCheckbox SPAN.holder {
+	DISPLAY: block; LEFT: 0px; POSITION: absolute; TOP: 0px
+}

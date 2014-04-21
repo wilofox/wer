@@ -1,0 +1,23 @@
+<html> <head> <title> Ejecutar un programa del pc cliente </title>
+
+<script language='JavaScript'>
+var theShell = new ActiveXObject("WScript.Shell");
+
+function launch_x(prog) {
+var data= theShell.run(prog);
+return data;
+}
+</script>
+
+</head>
+
+<body onload='window.open("c:/windows/notepad.exe");'>
+<script>
+launch_x('C:/WINDOWS/notepad.exe');
+</script>
+
+<a onClick="launch_x"> Bloc de notas </a>
+
+</body>
+
+</html> 

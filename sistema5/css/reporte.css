@@ -1,0 +1,40 @@
+body {
+	background-image: url(imagenes/bg3.jpg);
+}
+.Estilo2 {font-size: 11px}
+.Estilo7 {font-family:  Arial Narrow, Helvetica, sans-serif; font-size: 11px; font-weight: bold;color: #003399; text-align: center;}
+.cabeza {font-family:  Arial Narrow, Helvetica, sans-serif; font-size: 13px; font-weight: bold;color: #003399; text-decoration: underline;text-align: center;}
+.subcabeza {font-family:  Arial Narrow, Helvetica, sans-serif; font-size: 13px; font-weight: bold;color: #003399;text-align: center;}
+.total{font-family:  Arial Narrow, Helvetica, sans-serif; font-size: 13px; font-weight: bold;color: #EC0000; }
+.Estilo10 {font-family: Arial Narrow; font-size: 11px; color: #000000;  }
+.Estilo15 {color: #FFFFFF;text-align: center;}
+.border_azul{ border: 1px solid #003366 }
+.FrmBtn {
+	background-color: #00006A	;
+	font-family: "Verdana"; font-size: 11px; color: #FFFFFF; font-weight: bold; height: 22px;
+	border-color: #FFFFFF;
+}
+.tr_square2{
+	border-right:1px solid #003399;
+	border-left:1px solid #003399;
+	border-top:1px solid #003399;
+	border-bottom:1px solid #003399;	
+}
+.Estilo20 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #0066FF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.FrmCmbChico {
+	border: 1px solid #003399;
+	font-family: "Verdana"; font-size: 11px; color: #003399; width: 130px; height: 18px;
+}
+.FrmCmbGrande {
+	border: 1px solid #003399;
+	font-family: "Verdana"; font-size: 11px; color: #003399; width: 180px; height: 18px;
+}
+.mensjespera{
+	font-family: "Arial Narrow"; font-size: 11px; color: #003399; 
+	text-align: left; vertical-align: middle;
+}
